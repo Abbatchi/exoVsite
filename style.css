@@ -1,0 +1,357 @@
+body{
+	
+	font-family:  adelle-sans,"Helvetica Neue",Arial,sans-serif;
+}
+
+#body1{
+	background-color: #e9edf2;margin: -8px -8px -8px ;
+}
+
+
+#main-header{
+	display: flex;
+	flex-direction: row;
+		height: 80px;
+	    margin: -8px -8px -8px ;
+}
+
+
+#menu-ico{
+	display: flex;
+ 	flex-direction: row;
+
+}
+
+#try2{
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.5em 2em 0.55em;
+    color: white;
+    border: 1px solid #202528;
+    background-color: #3F9BF8;
+    text-decoration: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+	width: 80px;
+}
+
+#try2:hover{
+	background-color: #3Fffff;
+	transition: 0.8s;
+}
+
+#sign{
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 0.5em 2em 0.55em;
+    color: #202528;
+    border: 1px solid #202528;
+    background-color: #fff;
+    text-decoration: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+   	width: 60px;
+}
+
+
+#menu-top-right{
+	font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+	font-size: 0.9em;
+	flex: 2 0 auto;
+	display: flex;
+	text-align: center;
+	align-self: right;
+	justify-content: flex-end;
+}
+
+
+#menu-top-left{
+	display: flex;
+	font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+	font-size: 0.9em;
+	flex: 2 0 auto;	
+	text-align:  center;
+	margin-left: 1em;
+}
+
+#feautures, #pricing, #more{
+	align-self: center;
+	flex: 0 0 5em;
+	margin-left: 2em;
+}
+
+#blog, #res, #menu-ico{
+	align-self: center;
+	flex: 0 0 5em;
+	margin-right: 2em;
+
+}
+#help{
+	align-self: center;
+	flex: 0 0 7em;
+	margin-right: 2em;
+}
+
+#top-down{
+	font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+	font-size: 0.9em;
+	flex: auto;
+	text-align:  center;
+	height: 35px;
+	border-bottom: 1px solid #e9edf2;
+
+}
+
+
+
+#h1{
+	font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+	text-align: center;
+}
+
+
+
+
+
+
+.bouttons_anime{
+	flex-wrap: wrap;
+	flex-direction: row;
+	display: flex;
+	margin: auto;
+
+	background-color: green;
+  	text-align: center;
+  	background-color: #3b414f;
+	
+}
+
+#b1{
+
+	flex: 1 0 100px;
+	width: 25%;
+	height: 378px;
+	color: white;
+	padding: 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(0,0,0,0.5);
+
+		
+}
+#b2{
+	height: 378px;
+	flex: 1 0 100px;
+	width: 25%;
+	color: white;
+	padding: 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+#b3{
+	height: 378px;
+	flex: 1 0 100px;
+	width: 25%;
+	color: white;
+	padding: 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+#b4{
+	height: 378px;
+	flex: 1 0 100px;
+	width: 25%;
+	color: white;
+	padding: 1em;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(0,0,0,0.5);
+}
+
+
+#tryit{
+	
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+#day30{
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	font-size: 1.125em;
+    font-weight: 600;
+	border: 1px solid #202528;
+	background-color: #3F9BF8;
+    color: #fff;
+    padding: 0.5em 2em 0.55em;
+	border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#day30:hover{
+	background-color: #3Fffff;
+	transition: 0.8s;
+}
+
+#h2tryit{
+	font-size: 1.3125em;
+		display: flex;
+	flex-direction: column;
+	text-align: center;
+	max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: freight-text-pro, Georgia, sans-serif;
+}
+
+#ptryit{
+	font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 0.875em;
+    margin: 1em 0;
+    line-height: 1.6;
+}
+
+#screenshot1{
+	display: flex;
+	max-width: 80%;
+	min-width: 40%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.brand-logos li {
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 140px;
+    height: 140px;
+    background-image: url(img/ac-customers@2x.png);
+    background-repeat: no-repeat;
+    background-size: 1120px 140px;
+
+  }
+
+
+.logo-1 {
+    background-position: 0 0;
+}
+.logo-2{
+	background-position: -140px 0;
+}
+.logo-3{
+	background-position: -280px 0;
+}
+.logo-4{
+	background-position: -420px 0;
+}
+.logo-5{
+	background-position: -560px 0;
+}
+.logo-6{
+	background-position: -700px 0;
+}
+.logo-7{
+	background-position: -840px 0;
+}
+.logo-8{
+	background-position: -980px 0;
+}
+
+
+
+.plans-self{
+  display: flex;
+  flex-flow: row;
+text-align: center;
+ justify-content: center;
+
+}
+
+#plans-img{
+	width: 180px;
+}
+
+.month{
+		width: 300px;
+	    border-right: 1px solid rgba(0,0,0,0.15);
+
+}
+
+.self{
+		width: 300px;
+}
+
+.li2{
+	 display: inline-block;
+     list-style-type: none;
+     margin-left: -40px;
+}
+
+
+.logos{
+	background-color: #e9edf2;
+	flex-direction: row;
+	margin: 0px -8px -8px ;
+	text-align: center;
+}
+
+#day30-2{
+	width: 100px;
+	margin: auto;
+	font-size: 0.8em;
+    font-weight: 600;
+	border: 1px solid #202528;
+	background-color: #3F9BF8;
+    color: #fff;
+    padding: 0.5em 2em 0.55em;
+	border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#day30-3{
+	width: 120px;
+	margin: auto;
+	font-size: 0.8em;
+    font-weight: 600;
+	border: 1px solid #202528;
+	background-color: #3F9BF8;
+    color: #fff;
+    padding: 0.5em 2em 0.55em;
+	border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#day30-2:hover{
+	background-color: #3Fffff;
+	transition: 0.8s;
+}
+#day30-3:hover{
+	background-color: #3Fffff;
+	transition: 0.8s;
+}
+
+#center{
+	 justify-content: center;
+}
+
+#italic{
+	font-family: freight-text-pro, Georgia, sans-serif;
+	font-style: italic;
+
+}
